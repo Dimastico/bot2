@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 const client = new Discord.Client()
 
 client.on('ready', () => {
-    var generalChannel = client.channels.get("chat-g") // Replace with known channel ID
+    var generalChannel = client.channels.get("gg") // Replace with known channel ID
     generalChannel.send("Hello, world!")  
 })
 
